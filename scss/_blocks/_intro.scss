@@ -1,0 +1,35 @@
+.intro {
+    padding-bottom: 165px;
+    & .container {
+        width: 1280px;
+        height: 450px;
+
+        background-image: url('/images/arabica.jpg');
+        background-repeat: no-repeat;
+        background-size: 1280px 450px;
+
+        padding-top: 134px;
+        padding-left: 85px;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        width: 445px;
+    }
+}

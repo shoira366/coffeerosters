@@ -1,0 +1,127 @@
+.section-3 {
+    &__box-top {
+        background: #2C343E;
+        border-radius: 10px;
+        width: 1280px;
+        height: 577px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        margin-top: -240px;
+        margin-left: 20px;
+    }
+
+    &__item {
+        background: #0E8784;
+        border-radius: 8px;
+        width: 350px;
+        height: 382px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+    .first_item::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: inline-block;
+
+        background-image: url('/images/coffee.svg');
+        background-repeat: no-repeat;
+        background-size: 72px 72px;
+
+        margin-top: 72px;
+        margin-bottom: 56px;
+    }
+
+    .second_item::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: inline-block;
+
+        background-image: url('/images/present.svg');
+        background-repeat: no-repeat;
+        background-size: 72px 72px;
+
+        margin-top: 72px;
+        margin-bottom: 56px;
+    }
+
+    .third_item::before {
+        content: "";
+        width: 72px;
+        height: 50px;
+        display: inline-block;
+
+        background-image: url('/images/truck.svg');
+        background-repeat: no-repeat;
+        background-size: 72px 50px;
+
+        margin-top: 83px;
+        margin-bottom: 67px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__item-title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+
+    &__item-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        width: 255px;
+    }
+
+    .box-top__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+
+    .box-top__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;
+        width: 540px;
+    }
+}

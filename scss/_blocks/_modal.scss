@@ -1,0 +1,87 @@
+.modal_section .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 540px;
+    height: 597px;
+    background-image: linear-gradient(#333D4B 0% 25%, #FEFCF7 25% 100%);
+    padding-top: 48px;
+    padding-left: 56px;
+    border-radius: 8px;
+}
+
+.modal_title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 97px;
+}
+
+.modal_block {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #83888F;
+    width: 428px;
+    margin-bottom: 7px;
+}
+
+.modal_text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+    width: 428px;
+    margin-bottom: 57px;
+}
+
+.span_price {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.check {
+    background: #0E8784;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 15px 64px;
+    margin-left: 19px;
+    border: none;
+}
+
+.check:active {
+    background: #66D2CF;
+}

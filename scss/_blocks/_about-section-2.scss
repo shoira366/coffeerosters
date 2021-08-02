@@ -1,0 +1,50 @@
+.about-section-2 {
+    padding-top: 168px;
+    padding-bottom: 245px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__wrapper::before {
+        content: "";
+        width: 445px;
+        height: 520px;
+        display: inline-block;
+
+        background-image: url('/images/coffee-man.png');
+        background-repeat: no-repeat;
+        background-size: 445px 520px;
+
+        border-radius: 8px;
+    }
+
+    &__box {
+        margin-left: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        opacity: 0.8;
+        width: 540px;
+    }
+}

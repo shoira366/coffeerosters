@@ -1,0 +1,50 @@
+.about-section-3 {
+    padding-bottom: 168px;
+
+    &__wrapper {
+        position: relative;
+        padding-top: 88px;
+        padding-left: 85px;
+        width: 1280px;
+        height: 474px;
+        background: #2C343E;
+        border-radius: 10px;
+    }
+
+    &__wrapper::after {
+        position: absolute;
+        right: 92px;
+        top: -83px;
+        content: "";
+        width: 445px;
+        height: 474px;
+        display: inline-block;
+
+        background-image: url('/images/cappucino.png');
+        background-repeat: no-repeat;
+        background-size: 445px 474px;
+
+        border-radius: 8px;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        width: 540px;
+    }
+}

@@ -1,0 +1,105 @@
+.section-4 {
+    padding-top: 351px;
+    padding-bottom: 200px;
+
+    & .container {
+        padding-left: 90px;
+    }
+
+    &__link {
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 80px;
+    }
+
+    .line {
+        width: 760px;
+        height: 1px;
+        background-color: #FDD6BA;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 67px;
+    }
+
+    .circle {
+        background: #FEFCF7;
+        border: 2px solid #0E8784;
+        box-sizing: border-box;
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+    }
+
+    &__btn {
+        cursor: pointer;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        padding: 16px 31px;
+        background: #0E8784;
+        border-radius: 6px;
+        border: none;
+        margin-top: 64px;
+    }
+
+    &__btn:active {
+        background: #66D2CF;
+        border-radius: 6px;
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+    }
+
+    &__box-mini {
+        margin-right: 95px;
+    }
+
+    &__box-mini:last-child {
+        margin-right: 0;
+    }
+
+    .box-mini--number {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 38px;
+    }
+
+    .box-mini--title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        width: 255px;
+        margin-bottom: 42px;
+    }
+
+    .box-mini--text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        width: 285px;
+    }
+}

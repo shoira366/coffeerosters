@@ -1,0 +1,96 @@
+.about-section-4 {
+    padding-bottom: 168px;
+
+    & .container {
+        padding-left: 85px;
+    }
+
+    &__link {
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 95px;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+    .kingdom::before {
+        content: "";
+        width: 41px;
+        height: 49px;
+        display: inline-block;
+
+        background-image: url('/images/united-kingdom.svg');
+        background-repeat: no-repeat;
+        background-size: 41px 49px;
+
+        margin-bottom: 46px;
+    }
+
+    .canada {
+        margin-right: 125px;
+    }
+
+    .canada::before {
+        content: "";
+        width: 52px;
+        height: 50px;
+        display: inline-block;
+
+        background-image: url('/images/canada.svg');
+        background-repeat: no-repeat;
+        background-size: 52px 50px;
+
+        margin-bottom: 45px;
+    }
+
+    .australia::before {
+        content: "";
+        width: 49px;
+        height: 44px;
+        display: inline-block;
+
+        background-image: url('/images/australia.svg');
+        background-repeat: no-repeat;
+        background-size: 49px 44px;
+
+        margin-bottom: 48px;
+    }
+
+    &__country {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 24px;
+    }
+
+    &__span {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}

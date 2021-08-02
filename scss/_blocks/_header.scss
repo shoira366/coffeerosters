@@ -1,0 +1,43 @@
+.header {
+    padding-top: 44px;
+    padding-bottom: 45px;
+
+    & .container {
+        padding: 0;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    &__list--item {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+    }
+
+    &__list--item:last-child &__list--link {
+        margin-right: 0;
+    }
+
+    &__list--link {
+        text-decoration: none;
+        color: #83888F;
+        margin-right: 33px;
+    }
+    &__list--link:active{
+        color: #333D4B;
+    }
+}
